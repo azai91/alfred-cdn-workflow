@@ -18,7 +18,7 @@ def main(wf):
         wf.add_item(title=result['name'],
             subtitle=result['latest'],
             valid=True,
-            icon='./cdnjs.ng',
+            icon='./assets/cdnjs.png',
             arg=result['latest'])
 
     wf.send_feedback()
