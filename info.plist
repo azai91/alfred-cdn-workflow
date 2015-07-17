@@ -48,7 +48,7 @@
 				<key>script</key>
 				<string>python cdn.py "{query}"</string>
 				<key>title</key>
-				<string>CDN</string>
+				<string>Search Cloudflare</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
