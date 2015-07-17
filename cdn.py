@@ -8,7 +8,7 @@ def main(wf):
         query = wf.args[0]
     else:
         query = None
-    params = dict(search=query)
+    params = dict(search=query, fields='version,description')
     r = web.get(url, params)
 
     r.raise_for_status()
