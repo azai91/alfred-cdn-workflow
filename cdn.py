@@ -1,6 +1,7 @@
 import sys
 from workflow import Workflow, ICON_WEB, web
 
+
 def main(wf):
     url = 'http://api.cdnjs.com/libraries?'
     if len(wf.args):
@@ -17,7 +18,7 @@ def main(wf):
         wf.add_item(title=result['name'],
             subtitle=result['latest'],
             valid=True,
-            icon=ICON_WEB,
+            icon='./cdnjs.jpeg',
             arg=result['latest'])
 
     wf.send_feedback()
