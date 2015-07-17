@@ -3,11 +3,11 @@ from workflow import Workflow, ICON_WEB, web
 
 def main(wf):
     url = 'http://api.cdnjs.com/libraries?'
-    # if len(wf.args):
-      #  query = wf.args[0]
-    #else:
-    query = 'jquery'
-    params = dict(search='jquery')
+    if len(wf.args):
+        query = wf.args[0]
+    else:
+        query = None
+    params = dict(search=query)
     r = web.get(url, params)
 
     r.raise_for_status()
