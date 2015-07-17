@@ -1,4 +1,4 @@
-#CDN Workflow for Alred 2
+#CDN Workflow for Alfred 2
 This connects to the (cdnjs)[https://github.com/cdnjs/cdnjs] api 
 
 ![inline](assets/screenshot.png)
