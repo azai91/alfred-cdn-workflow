@@ -1,5 +1,5 @@
 #CDN Workflow for Alfred 2
-This connects to the (cdnjs)[https://github.com/cdnjs/cdnjs] api 
+Find CDNs quick with Alfred
 
 ![inline](assets/screenshot.png)
 
