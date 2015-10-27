@@ -3,6 +3,8 @@ Find CDNs quick with Alfred
 
 ![inline](assets/screenshot.png)
 
+[Download]()
+
 ##Commands
 ````
 cdn {query}
