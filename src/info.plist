@@ -16,6 +16,14 @@
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF7BAFBD-9DBD-467D-949C-9C044E6AEDFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
@@ -76,6 +84,31 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Copied to clipboard</string>
+				<key>title</key>
+				<string>CDN</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CF7BAFBD-9DBD-467D-949C-9C044E6AEDFB</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -90,6 +123,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
+		</dict>
+		<key>CF7BAFBD-9DBD-467D-949C-9C044E6AEDFB</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
