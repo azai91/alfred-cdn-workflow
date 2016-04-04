@@ -11,11 +11,11 @@ URL = 'http://api.cdnjs.com/libraries?'
 
 def main(_):
 
-  if wf.update_available:
-    wf.add_item(
-      'An update is available!',
-      autocomplete='workflow:update',
-      valid=False)
+  # if wf.update_available:
+  #   wf.add_item(
+  #     'An update is available!',
+  #     autocomplete='workflow:update',
+  #     valid=False)
 
   if len(wf.args):
     query = wf.args[0]
